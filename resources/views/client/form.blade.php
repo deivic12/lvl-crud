@@ -42,7 +42,7 @@
 
     <div class="mb-3">
 
-        <label for="due" class="form-label">Saldo</label>
+        <label for="due" class="form-label">Saldo del Cliente</label>
         <input type="number" name="due" class="form-control" placeholder="Saldo del Cliente" step="0.01" value="{{ old('due') ?? @$client->due }}">
         <p class="form-text">Escriba el saldo del cliente </p>
         @error('due')
